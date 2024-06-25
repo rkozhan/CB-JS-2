@@ -123,6 +123,7 @@ section {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(auto, 1fr);
     grid-gap: 5%;
+    margin-bottom: 4rem;
     p  { 
         aspect-ratio: 1;
         position: relative;
