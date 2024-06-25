@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript 2 - Quiz Web App Kompetenzcheck  </title>
+</head>
+<body>
+    <main>
+
+        <section>
+            <h1>Boolean Quiz</h1>
+            <div>
+                <div id="question"></div>
+                <div id="result">result</div>
+            </div>
+
+            <form>
+                <div class="inputs">
+                    <input type="radio" value="1" name="answer" id="right">
+                    <label for="right">true</label>
+                </div>
+                <div class="inputs">
+                    <input type="radio" value="0" name="answer" id="wrong">
+                    <label for="wrong">false</label>
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Antwort bestätigen">
+                    <input type="reset" value="Neues Spiel">
+                </div>
+            </div>
+        </section>
+
+        <div class="progress-bar">
+            <div class="progress-bar__indicator"></div>
+        </div>
+
+        <div class="questions">
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
